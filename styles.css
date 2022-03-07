@@ -1,0 +1,19 @@
+html,body{
+	margin:0;
+	background-color: #ddd;
+	font-family: sans-serif;
+}
+
+img{
+	width: 150px;
+}
+
+.parrafo2{
+	/* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+	color:grey;
+}
+.enlaces{
+	margin:0;
+	background-color:darkgoldenrod;
+	font-family: sans-serif;
+}
