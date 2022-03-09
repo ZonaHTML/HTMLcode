@@ -3,9 +3,29 @@ html,body{
 	background-color: #ddd;
 	font-family: sans-serif;
 }
+table{
+	width:"100%";
+}
 
-img{
-	width: 150px;
+
+table.center{
+		margin-left: auto; 
+		margin-right: auto;
+}
+
+
+table, th, td {
+	border:1px solid black;
+	font-family:sans-serif;
+	/* text-align:center; */
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.l-greek{
+	list-style-type:lower-greek;
 }
 
 .parrafo2{
@@ -13,7 +33,19 @@ img{
 	color:grey;
 }
 .enlaces{
-	margin:0;
-	background-color:darkgoldenrod;
+	border:none;
 	font-family: sans-serif;
 }
+
+.centertext {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+  }
+
+  .left{
+	  display:block;
+	  margin-left: 8px;
+  }
+  
