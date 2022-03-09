@@ -68,9 +68,8 @@ table,th,td {
 
 footer {
 	font-size: medium;
-	font-style: italic;
 	font-kerning: auto;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: sans-serif;
 }
 
 .l-greek {
