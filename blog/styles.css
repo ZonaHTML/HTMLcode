@@ -1,8 +1,8 @@
-html,
-body {
+html,body {
 	margin: 0;
 	background-color: rgb(137, 160, 224);
 	font-family: sans-serif;
+	text-rendering:optimizeLegibility;
 }
 
 table {
@@ -15,6 +15,7 @@ article {
 	margin-right: 30px;
 	margin-top: 25px;
 	margin-bottom: 50px;
+	padding:0px;
 	width: 75%;
 }
 
@@ -35,6 +36,7 @@ section.header{
 
 section{
 	margin-bottom: 30px;
+	padding:20px;
 }
 
 table.center {
@@ -70,6 +72,7 @@ footer {
 	font-size: medium;
 	font-kerning: auto;
 	font-family: sans-serif;
+	margin-bottom:15px;
 }
 
 .l-greek {
@@ -112,5 +115,5 @@ footer {
 	background-color: aquamarine;
 }
 .EolosNordes {
-	background-color: rgb(121, 187, 165);
+	background-color: rgba(255,255,0,0.72);
 }
