@@ -15,8 +15,11 @@ article {
 	margin-right: 30px;
 	margin-top: 25px;
 	margin-bottom: 50px;
-	padding:0px;
+	border-radius: 20px;
+	border:3px solid g;
+	padding:2px;
 	width: 75%;
+	color:brown;
 }
 
 header {
@@ -37,6 +40,10 @@ section.header{
 section{
 	margin-bottom: 30px;
 	padding:20px;
+	border-radius:20px;
+	border:3px solid blueviolet;
+	outline:1px solid coral;
+	overflow: scroll;
 }
 
 table.center {
@@ -113,8 +120,54 @@ footer {
 
 .Forza4 {
 	background-color: aquamarine;
+
 }
 .EolosNordes {
 	background-color: rgba(0, 225, 255, 0.72);
 	opacity: 0.85;
 }
+
+a:link{
+	color:blue;
+}
+a:visited{
+	color:blueviolet;
+}
+a:hover{
+	color:goldenrod;
+	cursor: pointer;
+}
+a:active{
+	color:brown;
+}
+
+ul{
+	padding-left:0px;
+	list-style-type: disc;
+	table-layout: auto;	
+}
+span{
+	display:block;
+}
+.inline{
+	display:inline;
+	visibility: hidden;
+}
+
+.indent{
+	margin-left:15px;
+}
+.Gtv{
+	display:fixed;
+	color:aquamarine;
+	max-width: 300px;
+	left:15px;
+	top:20px;
+	font-family: 'AGalega-Regular';
+	color:red;
+}
+@font-face {
+	font-family: 'AGalega-Regular';
+	src: url('file:///home/forza4/Fontes/a_galega/AGalega-Regular.otf') format('otf');
+
+  }
